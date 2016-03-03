@@ -1,0 +1,17 @@
+{
+	"env": "development",
+    "logLevel": "debug",
+	"aws": {
+		"accessKeyId": "XXX",
+		"secretAccessKey": "XXX",
+		"region": "XXX",
+		"sqsQueueUrl": "XXX"
+	},
+	"sftp": {
+		"host": "XXX", 
+		"username": "XXX", 
+		"password": "XXX" 
+	},
+	"fileRetryCount":3,
+	"messageVisibilityTimeout": 1200
+}
