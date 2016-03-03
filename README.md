@@ -1,4 +1,4 @@
-# S3 -> SQS -> SYNC SFTP
+# S3 -> SQS -> SYNC to SFTP Server
 
 This project syncs S3 files to an SFTP server. You must have S3 bucket setup sending notifications for ObjectCreated events to an SQS queue.  This project setups a worker that reads from the queue and syncs the file and directories to an SFTP Server.  
 
